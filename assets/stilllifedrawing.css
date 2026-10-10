@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  background-color: #c9e0d8;
+}
+
+main {
+  width: 800px;
+  height: 500px;
+  margin: 40px auto;
+  position: relative;
+  background-color: #dff0ea;
+  border: 2px solid #2d3d38;
+  overflow: hidden;
+}
+
+.cloth {
+  width: 700px;
+  height: 160px;
+  background-color: #f3e79b;
+  position: absolute;
+  left: 50px;
+  bottom: 45px;
+}
+
+.butternut {
+  width: 90px;
+  height: 220px;
+  background-color: #e4b277;
+  border: 3px solid #8d6648;
+  border-radius: 45px;
+  position: absolute;
+  left: 100px;
+  bottom: 65px;
+}
+
+.pumpkin {
+  width: 180px;
+  height: 155px;
+  background-color: #e69b28;
+  border: 3px solid #4e633f;
+  border-radius: 50%;
+  position: absolute;
+  left: 280px;
+  bottom: 65px;
+}
+
+.stem {
+  width: 35px;
+  height: 55px;
+  background-color: #718447;
+  border: 3px solid #4e633f;
+  position: absolute;
+  left: 68px;
+  top: -48px;
+}
+
+.small-squash {
+  width: 110px;
+  height: 60px;
+  background-color: #eccd3c;
+  border: 3px solid #968128;
+  border-radius: 50%;
+  position: absolute;
+  left: 480px;
+  bottom: 85px;
+}
+
+.candle {
+  width: 30px;
+  height: 110px;
+  background-color: #315b50;
+  border: 3px solid #283d35;
+  position: absolute;
+  right: 170px;
+  bottom: 70px;
+}
+
+.flame {
+  width: 18px;
+  height: 28px;
+  background-color: #f6d55c;
+  border-radius: 50%;
+  position: absolute;
+  right: 179px;
+  bottom: 180px;
+}
+
+.vase {
+  width: 70px;
+  height: 150px;
+  background-color: #1e559a;
+  border: 3px solid #173d70;
+  border-radius: 10px 10px 25px 25px;
+  position: absolute;
+  right: 55px;
+  bottom: 65px;
+}
+
+.stem-one,
+.stem-two,
+.stem-three {
+  width: 3px;
+  height: 115px;
+  background-color: #52755c;
+  position: absolute;
+  bottom: 210px;
+}
+
+.stem-one { right: 88px; }
+.stem-two { right: 72px; }
+.stem-three { right: 104px; }
+
+.flower {
+  width: 18px;
+  height: 18px;
+  background-color: #e595ad;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.flower.one {
+  right: 80px;
+  bottom: 315px;
+}
+
+.flower.two {
+  right: 60px;
+  bottom: 290px;
+}
+
+.flower.three {
+  right: 105px;
+  bottom: 280px;
+}
