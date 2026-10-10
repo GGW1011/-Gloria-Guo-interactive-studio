@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+  width: 40vh;
+  height: 50vh;
+  float: left;
+}
+
+.letter,
+.zigzag {
+  position: absolute;
+}
+
+.letters {
+  margin-left: 20px;
+}
+
+.zigzag {
+  height: 40vh;
+  z-index: 10;
+  /* transition: transform 2s; */
+}
+
+section:hover .zigzag {
+  transform: translateX(-250px);
+  /* animation: wavy 2s alternate infinite; */
+}
+
+.fast {
+  transition: transform 1s;
+}
+
+.medium {
+  transition: transform 3s;
+}
+
+.slow {
+  transition: transform 6s;
+}
+
+@keyframes wavy {
+  from {
+    left: -250px;
+  }
+  to {
+    left: 5px;
+  }
+}
